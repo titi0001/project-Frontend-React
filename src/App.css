@@ -6,3 +6,8 @@ body {
   background-image: url('./images/background.png');
   color: whitesmoke;
 }
+
+.solar-system {
+  text-align: center;
+}
+
