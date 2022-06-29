@@ -6,9 +6,9 @@ import planets from '../data/planets';
 class SolarSystem extends React.Component {
   render() {
     return (
-      <div data-testid="solar-system" className="carousel slide" data-bs-ride="carousel">
-        <Title headline="Planetas" className="title" />
-        <section className="carousel inner">
+      <div data-testid="solar-system" className="solar-system">
+        <Title headline="Planetas" />
+        <section className="li-planets">
           {
             planets.map((planet) => (
               <PlanetCard
