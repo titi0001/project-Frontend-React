@@ -37,3 +37,24 @@ body {
   justify-content: space-around;
   text-align: center;
 }
+
+.card-missions {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.card {
+  border: 1px solid;
+  border-radius: 15px;
+  color: black;
+  display: flex;
+  justify-content: space-around;
+  opacity: 0.6;
+  width: 30rem;
+}
+
+.card-body {
+  background: rgba(0, 0, 0, 0.5);
+}
